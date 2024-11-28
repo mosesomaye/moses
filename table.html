@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span>webclass</span>
+        <nav align="center">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="table.html">table</a>
+            <a href="league.html">league table</a>
+            <a href="form.html">form</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <h1>Students Score</h1>
+    <table border="1" width="600" bordercolor="green">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Math Score</th>
+                <th>Science Score</th>
+                <th>English Score</th>
+                <th>Average Score</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>90</td>
+                <td>85</td>
+                <td>95</td>
+                <td>90</td>
+                <td>375</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>57</td>
+                <td>79</td>
+                <td>30</td>
+                <td>60</td>
+                <td>196</td>
+            </tr>
+            <tr>
+                <td>Maryjane Kay</td>
+                <td>90</td>
+                <td>45</td>
+                <td>49</td>
+                <td>90</td>
+                <td>389</td>
+            </tr>
+            <tr>
+                <td>Julia Robert</td>
+                <td>90</td>
+                <td>60</td>
+                <td>50</td>
+                <td>56</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Oluchi Tosan</td>
+                <td>90</td>
+                <td>40</td>
+                <td>30</td>
+                <td>50</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Table with Colspan</h1>
+    <table border="1" width="600">
+        <caption>Life Expectancy by Current Age</caption>
+        <thead>
+            <tr>
+                <th colspan="2">65</th>
+                <th colspan="2">40</th>
+                <th colspan="2">20</th>
+            </tr>
+            <tr>
+                <th>Men</th>
+                <th>Women</th>
+                <th>Men</th>
+                <th>Women</th>
+                <th>Men</th>
+                <th>Women</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>82</td>
+                <td>85</td>
+                <td>47</td>
+                <td>65</td>
+                <td>78</td>
+                <td>34</td>
+        </tbody>
+    </table>
+
+    <h1>Colspan with Single Row Titling</h1>
+    <table border="1" width="600">
+        <caption>Invoice</caption>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>@</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paperclips (Box)</td>
+                <td>100</td>
+                <td>1.15</td>
+                <td>115.00</td>
+            </tr>
+            <tr>
+                <td>Paper (Case)</td>
+                <td>10</td>
+                <td>45.99</td>
+                <td>459.90</td>
+            </tr>
+            <tr>
+                <td>Wastepaper Baskets</td>
+                <td>2</td>
+                <td>17.99</td>
+                <td>35.98</td>
+            </tr>
+            <tr>
+                <td colspan="3">Subtotal</td>
+                <td>610.88</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>7%</td>
+                <td>42.76</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>653.64</td>
+            </tr>
+        </tbody>
+    </table>   
+
+    <h1>Table with rowspan</h1>
+    
+    <table border="1" width="600">
+        <caption>Favorite and Least Favorite Things</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Bob</th>
+                <th>Alice</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Favorite</th>
+                <th>Color</th>
+                <td>Blue</td>
+                <td>Purple </td
+            </tr>
+            <tr>
+                <th>Flavor</th>
+                <td>Banana</td>
+                <td>Chocolate </td
+            </tr>
+            <tr>
+                <th rowspan="2">Least Favorite</th>
+                <th>Color</th>
+                <td>Yellow</td>
+                <td>Pink </td
+            </tr>
+            <tr>
+                <th>Flavor</th>
+                <td>Mint</td>
+                <td>Walnut </td
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
